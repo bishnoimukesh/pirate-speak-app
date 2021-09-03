@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('./pirate.jpg');  
+}
+
+#heading {
+    margin: auto;
+    font-weight: 400;
+    text-align: center;
+    background-color: #1b120e;
+    padding: 2rem 3rem;
+    margin-bottom: 1rem;
+    box-shadow: 5px 10px 8px rgb(107, 227, 203);
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    color: rgb(107, 227, 203);
+}
+
+#heading a {
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    font-size: 2.75rem;
+    color: #fff;
+  }
+
+#heading h1 {
+    font-size: 2rem;
+}
+
+.btn {
+    margin: auto;
+    background-color: #8d4747;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 10px 8px rgb(107, 227, 203);
+    border: none;
+    font-size: 1.7rem;
+    color: rgb(107, 227, 203);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div,
+textarea {
+    margin: 2rem;
+    height: 20vh;
+    max-width: 80%;
+    width: 500px;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.4rem;
+    background-color: #fff;
+    box-shadow: 5px 10px 8px rgb(107, 227, 203);
+}
+
+
+p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+    color: rgb(107, 227, 203);
+}
+
+footer {
+    background-color: #000000;
+    padding: 2rem 0rem;
+    margin-top: 3rem;
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    box-shadow: 0px 10px 5px rgb(107, 227, 203), 0px -10px 5px #ccc;
+    color: rgb(107, 227, 203);
+}
+
+
+@media screen and (max-width: 700px) {
+    .footer-list {
+        width: 100%;
+        padding-left: 1rem;
+    }
+    
+}
